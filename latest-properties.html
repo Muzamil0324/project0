@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</head>
+
+
+<style>
+
+  .footer
+{
+  background-color: #14183e;
+  height:300px;
+  width:1500px;
+  margin:50px;
+  margin-left:2px;
+  color:white;
+  margin-top:100px;
+  
+  }
+  @media  screen and (max-width:600px) {
+       .footer{
+              height:600px;
+              margin-top:70px;
+
+                  
+       }
+      }
+
+.end-heading
+{
+  margin-top:102px;
+  font-style:serif;
+  font-family:serif;
+}
+
+.icon
+{
+  font-size:20px;
+  margin-right:0px;
+  color:white;
+  padding-left:5px;
+  margin-top:82px;
+
+}
+@media  screen and (max-width:600px) {
+       .icon{
+              font-size:15px;
+
+                  
+       }
+      }
+.icon-1
+{
+  font-size:20px;
+  margin-right:0px;
+  color:white;
+  padding-left:5px
+
+
+}
+@media  screen and (max-width:600px) {
+       .icon-1{
+              font-size:15px;
+
+                  
+       }
+      }
+
+.list-color
+{
+  color:#14183e;
+  font-weight:bold;
+  font-size:15px;
+}
+@media  screen and (max-width:600px) {
+       .list-color{
+                    font-size:13px;             
+       }
+      }
+
+.last
+{
+  text-align:center;
+  font-size:12px;
+  border-bottom:0.2px solid black;
+
+}
+
+.icon-2
+{ 
+  font-size:20px;
+  margin-right:0px;
+  color:white;
+  padding-left:5px;
+  margin-top:82px;
+
+
+}
+
+@media  screen and (max-width:600px) {
+       .icon-2{
+              font-size:15px;
+
+                  
+       }
+      }
+.icon-3
+{
+
+  font-size:20px;
+  margin-right:0px;
+  color:white;
+  padding-left:5px;
+
+}
+@media  screen and (max-width:600px) {
+       .icon-3{
+              font-size:15px;
+           
+
+                  
+       }
+      }
+.list
+{
+  list-style:none;
+}
+@media  screen and (max-width:600px) {
+       .list{
+              margin-left:2px;
+              padding-left:0px;
+
+                  
+       }
+      }
+      .end-heading
+{
+  margin-top:80px;
+  font-style:serif;
+  font-family:serif;
+}
+
+
+.end
+{
+  font-size:10px;
+  color:white;
+  font-family:serif;
+}
+
+.label
+{
+  font-size:26px;
+  display:none;
+  margin:0px;
+  padding:0px;
+}
+#toggle
+{
+  display:none;
+}
+@media only screen and (max-width:600px){
+  .label{
+             display:block;
+             cursor:pointer;
+             font-size: 18px;
+  }
+  .navbar-nav
+  {
+    display:none;
+
+  }
+  .nav-item
+  {
+    display:block;
+    margin-left:3px;
+
+  }
+  #toggle:checked+ .navbar-nav
+  {
+       display:block;
+       margin-left: 3px;
+  }
+
+}
+.list-color
+{
+  color:#14183e;
+  font-weight:bold;
+  font-size:15px;
+}
+@media  screen and (max-width:600px) {
+       .list-color{
+                    font-size:13px;             
+       }
+      }
+
+
+  .navigation
+   {
+    background-color:white;
+    opacity:1;
+     border-bottom: 2px solid grey;
+      border-top: 2px solid grey;
+
+
+   }
+   .top-header
+{
+  background-color: #14183e;
+  height:50px;
+  
+}
+.top-text
+{
+   color:white;
+  font-size:16px;
+  font-style:serif;
+  margin-left:40px;
+  font-weight:bold;
+  padding-top:10px;
+  font-family: serif;
+}
+@media  screen and (max-width:600px) {
+       .top-text{
+            font-size:10px; 
+            margin-left:15px; 
+
+       }
+      }
+      .top-button
+{
+  background-color:#14183e;;
+  color:white;
+  margin-left:880px;
+  border:none;
+  font-size:12px;
+  font-family:serif;
+  font-weight:bold;
+
+
+
+}
+
+.top-button:hover
+{
+
+  color:white;
+
+}
+
+@media  screen and (max-width:600px) {
+       .top-button{
+              margin-left:55px;
+              font-size:10px;
+
+                  
+       }
+      }
+
+.list-first-item
+{
+  margin-left:417px;
+}
+@media  screen and (max-width:600px) {
+       .list-first-item{
+            margin-left:0px;  
+
+       }
+      }
+
+
+.trend-image
+{
+  height:450px;
+  width:100%;
+}
+
+@media screen and (max-width:600px)
+{
+   .trend-image
+   {
+       height:250px;
+   }
+}
+.text-on-image{
+
+position:absolute;
+    left:0;
+    top:65%;
+    width:100%;
+    text-align:center;
+    font-family:serif;
+    color:white;
+    padding-left:1px;
+    font-weight:bold;
+    font-size:32px;
+    text-shadow:1px 1px grey;
+   
+   }
+   @media  screen and (max-width:600px) {
+       .text-on-image{
+                  font-size:16px;
+                  top:45%;
+                  padding-left:5px;
+                  margin-left:2px;
+                  color:white;
+              
+                  text-shadow:1px 1px grey;
+       }
+      }
+
+       li a:hover
+ {
+ 
+  color:black;
+  border-top:3px solid black
+
+ }
+
+      .nav {
+         
+         text-align: center;
+         margin: 0;
+         padding: 0;
+         color:black;
+         top:0;
+
+
+         }
+
+.nav li {
+         display: inline-block;
+         padding: 6px;
+         margin:0;
+        }
+ .nav li a{
+
+      font-weight:bold;
+      font-size:15px;
+      font-family:serif;
+
+ }
+
+ body{
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+@media  screen and (max-width:600px) {
+       body{
+            
+            padding-right: 0px;
+        }
+       }
+
+ </style>
+
+
+
+
+ <body>
+
+  <div class="container-fluid">
+   <div class="top-header">
+    <p class="top-text"> <span style="font-size:25px;">J</span>AMAL PROPERTY SOLUTIONS
+    <a href="file:///home/najam/Desktop/Project/Admin.html" class="top-button" > Log in </a> </p>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+<nav class=" navigation navbar navbar-expand-sm">
+  <label class="label" for="toggle">&#9776 </label>
+  <input type="checkbox" id="toggle">
+    <ul class="navbar-nav">
+       <li class="nav-item">
+         <a class="list-first-item list-color nav-link" href="file:///home/najam/Desktop/Project/project1.html">Home</a>
+           </li>
+             <li class="nav-item">
+              <a class="list-color nav-link" href="file:///home/najam/Desktop/Project/Our%20Services.html">Our Services</a>
+               </li>
+                <li class="nav-item">
+                <a class="list-color nav-link" href="file:///home/najam/Desktop/Project/Latest%20Properties.html">Latest Properties</a>
+              </li>
+           <li class="nav-item">
+         <a class="list-color nav-link" href="file:///home/najam/Desktop/Project/contact.html">Contact Us </a>
+       </li>
+    </ul>
+ </nav>
+</div>
+
+<div class="container-fluid">
+ <img src="property.jpg" class="trend-image">
+  <p class="text-on-image"> FIND TOP PROPERTIES IN LAHORE </p>
+</div>
+
+
+
+
+
+  <div class=" container-fluid">
+    <div class=" footer row">
+      <div class="col-sm-4">
+        <i class="icon fa fa-map-marker"> </i>
+        <span style= "color:white;font-size:10px; padding-left:5px"> 544/s Imperial Garden Homes, Paragon City  , Lahore </span> <br>
+        <i class="icon-1 fa fa-phone"></i> <span style= "color:white;font-size:10px; padding-left:5px" > 0321 4874890 </span>
+    </div>
+
+
+      <div class="col-sm-4">
+        <h5 class="end-heading">What We Offer </h5>
+         <p class="end">
+           Commercial Plots <br>
+           Real Estate Development <br>
+           Labour Assistance <br>
+           Selling Your Property<br>
+           Water Damage Repairs<br>
+           Farm Houses Land <br>
+           Interior Design <br>
+           Exterior Designing 
+        </p>
+      </div>
+
+      <div class="col-sm-4">
+        <ul class="list">
+         <li><a href="#" class="icon-2 fa fa-facebook"></a></li>
+         <li><a href="#" class="icon-3 fa fa-whatsapp " ></a> </li>
+         <li><a href="#" class="icon-3 fa fa-envelope " > </a> </li>
+       </ul>
+    </div>
+   </div>
+  

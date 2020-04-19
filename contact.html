@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</head>
+
+
+<style>
+	
+
+	.contact
+	{
+		margin-left:65px;
+		margin-right:65px;
+	}
+
+	.icon
+	{
+		font-size:28px;
+		color:orange;
+		margin-top:60px;
+		text-align:center;
+
+	}
+
+	.img
+	{
+		width:100%;
+		height:450px;
+	}
+
+	@media  screen and (max-width:600px) {
+	   	 .img{
+	   	 	     height:300px;
+	   	 	     width:100%;
+	   	 }
+	   	}
+
+
+	.img-text
+	 {
+	 	position:absolute;
+	 	left:0;
+	 	top:54%;
+	 	width:100%;
+	 	text-align:center;
+	 	font-size:45px;
+	 	font-family:serif;
+	 	color:white;
+	 	font-weight:bolder;
+	 }
+	  @media  screen and (max-width:600px) {
+	   	 .img-text{
+	   	 	          font-size:25px;
+	   	 	          top:50%;
+	   	 }
+	   	}
+
+	   	 @media  screen and (max-width:600px) {
+	   	 .heading{
+	   	 	          font-size:22px;
+	   	 	         
+	   	              
+	   	 	          padding-top:0px;
+	   	 	          
+	   	 }
+	   	}
+
+
+	 .heading
+	 {
+	 	font-weight:bold;
+	 	font-family:serif;
+	 	margin-top:35px;
+	 	margin-bottom:25px;
+	    color: #14183e;
+         text-align:center;
+	    font-size:21px;
+
+	 }
+
+	 .label-property
+	 {
+	 	font-size:14px;
+	 	font-family:serif;
+	 	margin-bottom:5px;
+	 	margin-top:5px;
+	 	font-weight:500;
+	 
+	 }
+	 @media  screen and (max-width:600px) {
+	   	 .label-property{
+	   	 	          font-size:12px;
+	   	 	          
+	   	 	          
+	   	 }
+	   	}
+
+
+	 .button-property
+{
+	padding:2px;
+	width:115px;
+	height:36px;
+	text-align:center;
+	background-color:#14183e;
+	color:white;
+	margin-top:40px;
+	margin-bottom: 22px;
+	border-radius:15px;
+	font-family:serif;
+	border:none;
+	font-size:13px;
+}
+
+.heading-1
+{
+	font-family:serif;
+	font-size:17px;
+	font-weight:bold;
+	margin-top:240px;
+	color: black;
+	
+}
+@media  screen and (max-width:600px) {
+	   	 .heading-1{
+	   	 	      
+	   	 	      margin-top:40px;
+	   	 	      margin-left:10px;
+
+	   	 	          
+	   	 }
+	   	}	
+	
+.para 
+
+{
+	font-size:14px;
+	border-bottom:2px solid  black;
+	margin-top:0px;
+	margin-bottom:10px;
+	font-family:serif;
+	width:240px;
+}
+@media  screen and (max-width:600px) {
+	   	 .para{
+	   	 	      
+	   	 	      font-size:12px;
+	   	 	      margin-left:10px;
+
+	   	 	          
+	   	 }
+	   	}	
+  .end-heading
+{
+  margin-top:82px;
+  font-style:serif;
+  font-family:serif;
+}
+
+.end
+{
+  font-size:10px;
+  color:white;
+  font-family:serif;
+}
+.icon
+{
+	font-size:20px;
+	margin-right:0px;
+	color:white;
+	padding-left:5px;
+	margin-top:102px;
+
+}
+@media  screen and (max-width:600px) {
+	   	 .icon{
+	   	 	      font-size:15px;
+
+	   	 	          
+	   	 }
+	   	}
+
+
+.icon-1
+{
+	font-size:20px;
+	margin-right:0px;
+	color:white;
+	padding-left:5px
+
+
+}
+@media  screen and (max-width:600px) {
+	   	 .icon-1{
+	   	 	      font-size:15px;
+
+	   	 	          
+	   	 }
+	   	}
+
+.icon-2
+{ 
+  font-size:20px;
+  margin-right:0px;
+  color:white;
+  padding-left:5px;
+  margin-top:82px;
+
+
+}
+@media  screen and (max-width:600px) {
+	   	 .icon-2{
+	   	 	      font-size:15px;
+
+	   	 	          
+	   	 }
+	   	}
+.icon-3
+{
+
+  font-size:20px;
+  margin-right:0px;
+  color:white;
+  padding-left:5px;
+
+}
+@media  screen and (max-width:600px) {
+	   	 .icon-3{
+	   	 	      font-size:15px;
+
+	   	 	          
+	   	 }
+	   	}
+.list
+{
+  list-style:none;
+}
+
+@media  screen and (max-width:600px) {
+	   	 .list{
+	   	 	      margin-left:2px;
+	   	 	      padding-left:0px;
+
+	   	 	          
+	   	 }
+	   	}
+
+.footer
+{
+  background-color:#14183e;
+  height:300px;
+  width:1500px;
+  margin:50px;
+  margin-left:2px;
+  color:white;
+  margin-top:100px;
+  
+  }
+  @media  screen and (max-width:600px) {
+	   	 .footer{
+	   	 	      height:600px;
+	   	 	      margin-top:70px;
+
+	   	 	          
+	   	 }
+	   	}
+
+  .text
+  {
+  	margin-left:120px;
+
+  }
+  @media  screen and (max-width:600px) {
+	   	 .text{
+	   	 	      margin-left:20px;
+
+	   	 	          
+	   	 }
+	   	}
+
+.background
+{
+
+	margin-top:0px;
+	width:100%;
+	background-color:  #e5dfec ;
+}
+
+ .top-header
+{
+	background-color: #14183e;
+	height:50px;
+	
+}
+body{
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+@media  screen and (max-width:600px) {
+	   	 body{
+	   	 	    
+	   	 	    padding-right: 0px;
+	   	 	}
+	   	 }
+.top-text
+{
+   color:white;
+	font-size:16px;
+	font-style:serif;
+	margin-left:40px;
+	font-weight:bold;
+	padding-top:10px;
+	font-family: serif;
+}
+@media  screen and (max-width:600px) {
+	   	 .top-text{
+	   	 	    font-size:10px; 
+	   	 	    margin-left:15px; 
+
+	  	 }
+	   	}
+.top-button
+{
+	background-color:#14183e;;
+	color:white;
+	margin-left:850px;
+	border:none;
+	font-size:12px;
+	font-family:serif;
+	font-weight:bold;
+
+
+}
+
+@media  screen and (max-width:600px) {
+	   	 .top-button{
+	   	 	      margin-left:55px;
+	   	 	      font-size:10px;
+
+	   	 	          
+	   	 }
+	   	}
+
+.list-first-item
+{
+	margin-left:417px;
+}
+@media  screen and (max-width:600px) {
+	   	 .list-first-item{
+	   	 	    margin-left:0px;  
+
+	  	 }
+	   	}
+
+	   	 .navigation
+	 {
+	 	background-color:white;
+	 	opacity:1;
+	   border-bottom: 2px solid grey;
+	    border-top: 2px solid grey;
+
+
+	 }
+	 nav {
+         
+         text-align: center;
+         margin: 0;
+         padding: 0;
+         color:black;
+         top:0;
+
+
+         }
+
+.nav li {
+         display: inline-block;
+         padding: 6px;
+         margin:0;
+        }
+ .nav li a{
+
+ 	    font-weight:bold;
+ 	    font-size:15px;
+ 	    font-family:serif;
+
+ }
+
+ li a:hover
+ {
+ 
+ 	color:black;
+ 	border-top:3px solid black;
+
+ }
+
+ .label
+{
+	font-size:26px;
+	display:none;
+	margin:0px;
+	padding:0px;
+}
+#toggle
+{
+	display:none;
+}
+@media only screen and (max-width:600px){
+	.label{
+             display:block;
+             cursor:pointer;
+             font-size: 18px;
+	}
+	.navbar-nav
+	{
+		display:none;
+
+	}
+	.nav-item
+	{
+		display:block;
+		margin-left:3px;
+
+	}
+	#toggle:checked+ .navbar-nav
+	{
+       display:block;
+       margin-left: 3px;
+	}
+
+}
+
+.list-color
+{
+	color:#14183e;
+	font-weight:bold;
+	font-size:15px;
+}
+@media  screen and (max-width:600px) {
+	   	 .list-color{
+	   	 	            font-size:13px; 	          
+	   	 }
+	   	}
+
+.contact-form
+{
+	margin-left:50px;
+	margin-top: 75px;
+
+}
+@media  screen and (max-width:600px) {
+  .contact-form
+  {
+  	margin-left:23px;
+  	margin-top:25px;
+  }
+}
+.card
+{
+	width:117%;
+	margin-bottom: 55px;
+
+}
+
+@media  screen and (max-width:600px) {
+	.card
+	{
+		width:100%;
+		margin-top: 25px;
+	}
+}
+
+.row-width
+{
+	width:95%;
+}
+@media  screen and (max-width:600px) {
+	.row-width{
+		width:100%;
+	}
+}
+
+.card-image
+{
+	height:250px;
+}
+@media  screen and (max-width:600px) {
+.card-image
+{
+	height:150px;
+}
+}
+
+.top-image
+{
+	width:100%;
+	height:450px;
+}
+
+@media  screen and (max-width:600px) {
+.top-image
+{
+	height:290px;
+}
+}
+.image-text
+	 {
+	 	position:absolute;
+	 	left:0;
+	 	top:73%;
+	 	width:100%;
+	 	text-align:center;
+	 	font-family:serif;
+	 	color:white;
+	 	padding-left:1px;
+	 	font-weight:bold;
+	 	font-size:33px;
+	 	text-shadow:2px 2px grey;
+	 
+	 }
+	 @media  screen and (max-width:600px) {
+	   	 .image-text{
+	   	 	          
+	   	 	          top:55%;
+	   	 	          padding-left:5px;
+	   	 	          margin-left:2px;
+	   	 	          color:white;
+	   	 	          font-size:16px;
+	   	 	          text-shadow:1px 1px grey;
+	   	 }
+	   	}
+
+
+	
+</style>
+
+<script>
+
+$(function()
+{
+    function after_form_submitted(data)
+    {
+        if(data.result == 'success')
+        {
+            $('form#reused_form').hide();
+            $('#success_message').show();
+            $('#error_message').hide();
+        }
+        else
+        {
+            $('#error_message').append('<ul></ul>');
+
+            jQuery.each(data.errors,function(key,val)
+            {
+                $('#error_message ul').append('<li>'+key+':'+val+'</li>');
+            });
+            $('#success_message').hide();
+            $('#error_message').show();
+
+            //reverse the response on the button
+            $('button[type="button"]', $form).each(function()
+            {
+                $btn = $(this);
+                label = $btn.prop('orig_label');
+                if(label)
+                {
+                    $btn.prop('type','submit' );
+                    $btn.text(label);
+                    $btn.prop('orig_label','');
+                }
+            });
+
+        }//else
+    }
+
+  $('#reused_form').submit(function(e)
+      {
+        e.preventDefault();
+
+        $form = $(this);
+        //show some response on the button
+        $('button[type="submit"]', $form).each(function()
+        {
+            $btn = $(this);
+            $btn.prop('type','button' );
+            $btn.prop('orig_label',$btn.text());
+            $btn.text('Sending ...');
+        });
+
+
+                    $.ajax({
+                type: "POST",
+                url: 'handler.php',
+                data: $form.serialize(),
+                success: after_form_submitted,
+                dataType: 'json'
+            });
+
+      });
+});
+</script>
+  
+
+
+
+<body>
+
+
+
+<div class="container-fluid">
+ <div class="top-header">
+ <p class="top-text"> <span style="font-size:25px;">J</span>AMAL PROPERTY SOLUTIONS
+ <button class="top-button"> Log in </button> </p>
+</div>
+</div>
+
+
+<div class="container-fluid">
+<nav class=" navigation navbar navbar-expand-sm">
+	<label class="label" for="toggle">&#9776 </label>
+	<input type="checkbox" id="toggle">
+    <ul class="navbar-nav">
+       <li class="nav-item">
+         <a class="list-first-item list-color nav-link" href="file:///home/najam/Desktop/Project/project1.html">Home</a>
+           </li>
+             <li class="nav-item">
+           	  <a class="list-color nav-link" href="file:///home/najam/Desktop/Project/Our%20Services.html">Our Services</a>
+               </li>
+                <li class="nav-item">
+                <a class="list-color nav-link" href="file:///home/najam/Desktop/Project/Latest%20Properties.html">Latest Properties</a>
+              </li>
+           <li class="nav-item">
+         <a class="list-color nav-link" href="file:///home/najam/Desktop/Project/contact.html">Contact Us </a>
+       </li>
+    </ul>
+ </nav>
+</div>
+
+
+
+<div class="container-fluid">
+ <img class="top-image" src="coffee.jpeg">
+  <p class="image-text"> LETS HAVE A COFFEE TOGETHER </p>
+</div>
+
+
+
+
+
+<div class=" background container-fluid">
+ <div class="row-width row">
+  <div class="col-sm-6 contact-form">
+    <div class=" card">
+       <img src="contact-1.jpg" alt="Hand Shake" class="card-image">
+     	<div class="card-body">
+  	     <h3 class="heading"> WRITE TO US </h3>
+          <form methods="post" role="form" id="reused_form">
+          <label for="name" class="label-property"> Name: </label>
+          <input type="text" class=" form-property form-control"  id="name" required>
+          <label for="number" class="label-property"> Phone Number: </label>
+          <input type="text" class="form-property form-control"id="number" required>
+          <label for="email" class="label-property"> Email: </label>
+          <input type="email" class="form-property form-control"id="email" required>
+          <label for="comments" class="label-property"> Message: </label>
+          <textarea class="form-control" rows="5" id="text" > </textarea>
+          <button class="button-property"> Send -> </button>
+       </form>
+        <div id="success_message" style="width:100%; height:100%; display:none; ">
+            <h3>Sent Successfully</h3>
+       </div>
+        <div id="error_message" style="width:100%; height:100%; display:none; ">
+           <h3>Error</h3>
+             <p> Sorry there was an error sending your form. </p>
+           </div>
+         </div>
+       </div>
+    </div>
+
+
+ 
+   <div class="text col-sm-4">
+   	 <p class="heading-1"> Find Us At </p>
+   	 <p class="para"> 544/S Imperial Garden Homes, <br> Paragon City , Lahore, Pakistan <br> <br>
+   	 Phone1:0321 4874890<br>
+   	 Phone2:0335 4750329<br><br>
+
+   	  Email: info@jamalrealesate.com <br></p>
+   	 
+   	</div>
+   </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class=" container-fluid">
+   <div class=" footer row">
+     <div class="col-sm-4">
+       <i class="icon fa fa-map-marker"> </i>
+         <span style= "color:white;font-size:10px; padding-left:5px"> 544/s Imperial Garden Homes, Paragon City , Lahore </span> <br>
+        <i class="icon-1 fa fa-phone"></i> <span style= "color:white;font-size:10px; padding-left:5px" > 0321 4874890 </span>
+      </div>
+
+      <div class="col-sm-4">
+        <h5 class="end-heading">What We Offer </h5>
+         <p class="end">
+           Commercial Plots <br>
+           Real Estate Development <br>
+           Labour Assistance <br>
+           Selling Your Property<br>
+     	   Water Damage Repairs<br>
+     	   Farm Houses Land<br>
+     	   Interior Design <br>
+           Exterior Designing
+         </p>
+      </div>
+
+     <div class="col-sm-4">
+        <ul class="list">
+         <li><a href="#" class="icon-2 fa fa-facebook" ></a></li>
+         <li><a href="#" class="icon-3 fa fa-whatsapp " ></a> </li>
+        <li><a href="#" class="icon-3 fa fa-envelope "> </a> </li>
+       </ul>
+    </div>
+   </div>
+  
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
